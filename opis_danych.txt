@@ -1,0 +1,23 @@
+Źródło: https://www.kaggle.com/datasets/akiboy96/spotify-dataset
+
+Zbiór spotify_data zawiera dane na temat 40553 różnych piosenek z serwisu streamingowego Spotify. Wszystkie piosenki zawarte w zbiorze zostały nagrane po roku 1960. Celem modelu ma być przewidzenie, czy piosenka stanie się hitem czy też nie. Informacja ta została zawarta w kolumnie  "popularity" która przyjmuje wartości 1 dla piosenek które stały się popularne oraz 0 dla piosenek które nie osiągnęły sukcesu. Na zbiór składają się poniższe kolumny:
+track - tytuł piosenki 
+artist - artysta wykonujący dany utwór 
+uri - unikalna dla każdego utworu wartość - indeks
+danceability - wartość opisująca czy utwór nadaje się do tańczenia - dane z zakresu 0 do 1
+energy - miara intensywności oraz energiczności utworu - dane z zakresu 0 do 1, gdzie 0 oznacza utwór spokojny (np.muzyka klasyczna) a 1 utwór wysoce energetyczny (np. death metal)
+key - ogólny klucz utworu - liczby całkowite z zakresu od 0 do 11
+loudness - głośność utworu wyrażona w decybelach- typowy zakres to od -60dB do 0dB
+mode - wskazuje na tonalność utworu - 1 oznacza dur a 0 moll
+speechiness - wykrywa obecność słów w utworze - liczby z zakresu od 0 do 1, gdzie 0 oznacza utwór składający się całkowicie z muzyki, a 1 tylko i wyłącznie z wypowiedzianych słów (np. podcast)
+acousticness - wartość opisująca poziom akustyczności utworu - liczby z zakresu od 0 do 1, gdzie 0 oznacza bardzo niski poziom akustyczności w utworze, a 1 bardzo wysoki 
+instrumentalness - wartość opisująca czy utwór zawiera wokal czy też nie - liczby z zakresu od 0 do 1, gdzie im bliżej do wartości 1, tym utwór jest bardziej instrumentalny, a mniej wokalny 
+liveness - wartość opisująca udział publiczności w utworze - wartości z zakresu od 0 do 1, gdzie im bliżej 1 tym większe prawdopodobieństwo, że utwór został nagrany podczas wystąpienia na żywo 
+valence - wartość opisująca w jakim stopniu utwór jest pozytywny - wartości z zakresu od 0 do 1, gdzie 0 oznacza utwór smutny, depresyjny, a 1 utwór euforyczny 
+tempo - wartość opisująca tempo piosenki, wyrażona w uderzeniach na minutę - wartości z zakresu od 0 do 241
+duration_ms - długość utworu wyrażona w milisekundach
+time_signature - metrum utworu - określa ile jednostek metrycznych przypada na akcent - wartości z zakresu od 0 do 5
+sections - ilość sekcji na które został podzielony utwór - liczba całkowita
+popularity - czy piosenka stała się popularna czy nie - 0 lub 1 
+decade - dekada w której utwór został wydany 
+
